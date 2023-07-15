@@ -9,14 +9,14 @@
     - Jedis/JedisCluster
     - Lettuce
 # Reference
-* Redis hash (https://redis.io/docs/data-types/hashes/)
+* Redis hash https://redis.io/docs/data-types/hashes/
   - HINCRBY https://redis.io/commands/hincrby/
   - HGET https://redis.io/commands/hget/  
-* Redis sorted sets (https://redis.io/docs/data-types/sorted-sets/)
+* Redis sorted sets https://redis.io/docs/data-types/sorted-sets/
   - ZADD https://redis.io/commands/zadd/
   - ZRANGEBYSCORE https://redis.io/commands/zrangebyscore/
   - ZREMRANGEBYSCORE https://redis.io/commands/zremrangebyscore/
-* Redis expire (https://redis.io/commands/expire/)
+* Redis expire https://redis.io/commands/expire/
 
 pseudo code
 ```
