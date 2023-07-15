@@ -10,10 +10,10 @@
     - Lettuce
 # Reference
 * Redis hash (https://redis.io/docs/data-types/hashes/)
-  - https://redis.io/commands/hincrby/
+  - HINCRBY https://redis.io/commands/hincrby/
   - HGET https://redis.io/commands/hget/  
 * Redis sorted sets (https://redis.io/docs/data-types/sorted-sets/)
-  - https://redis.io/commands/zadd/
+  - ZADD https://redis.io/commands/zadd/
   - ZRANGEBYSCORE https://redis.io/commands/zrangebyscore/
   - ZREMRANGEBYSCORE https://redis.io/commands/zremrangebyscore/
 * Redis expire (https://redis.io/commands/expire/)
