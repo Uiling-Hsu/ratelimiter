@@ -24,10 +24,10 @@ pseudo code
 # precision means the minimun unit in duration
 HINCRBY {$id}:{$timestamp_sec} count 1
 EXPIRE {$id}:{$timestamp_sec} {$duration_sec}
-# add precision in sorted set
+# add precision in sorted set with score
 ZADD {$id} GT {$timestamp_sec} {$id}:{$timestamp_sec}
 set = ZRANGEBYSCORE {$id} {$timestamp_sec}-{$duration_sec} {$timestamp_sec}
-# caclute the total precision's count in the last interval
+# caclute total precision's count in the last interval
 int total = 0
 for precision in set
   total += HGET precision count
